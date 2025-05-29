@@ -30,7 +30,7 @@ $(document).ready(() => {
   }
 
   app.titleChanger([' ', 'h','ha','har','harm','harml','harmle', 'harmles', 'harmless', 'Harmless.', 'harmless.g', 'harmless.gg' ]);
-  app.iconChanger(['assets/icons/crown.png', 'assets/icons/crown.png']);
+  app.iconChanger(['assets/others/clown.png', 'assets/others/clown.png']);
 });
 
 if ($.cookie('videoTime')) {
