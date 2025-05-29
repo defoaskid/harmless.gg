@@ -8,7 +8,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['fleakyy#5777', 'shitty csgo youtuber', 'polski is epic guy :)', 'spent 13 hours making this site :^)', 'who.ru nn laff hhh $$$', 'uff yaa 1tap laff', 'fleakyy#5777'];
+  brandDescription = ['harmless.gg ran plug jamie ', 'scarwy com kid', 'follow my only fans', 'i spend 10 mins on this website including a wank :^)', 'who.ru elijah $$$', 'goofy gooner,lk and cxd ran you', 'get extorted by cxd,goofy gooner,lk '];
 
   titleChanger = (text, delay) => {
     if (!text) return;
