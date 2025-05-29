@@ -19,10 +19,24 @@
     <link rel="shortcut icon" href="assets/icons/crown.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="ajax/libs/animate_css/3.5.2/animate.min.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('assets/others/niger%20boy.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        z-index: 0;
+      }
+    </style>
   </head>
   <body>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-    <div id="main">
+    <div id="main" style="position: relative; z-index: 1;">
       <table class="box">
         <tbody>
           <tr>
@@ -49,10 +63,7 @@
     <div class="marquee-container" style="visibility: hidden;">
       <pre>|<div id="marquee"></div>|</pre>
     </div>
-    <div class="background" style="display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
-      <video id="background" autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="assets/others/niger boy.gif" type="video/gif" />
-      </video>
+    <div class="background" style="display: none;">
       <div id="pattern"></div>
       <audio id="audio" loop="">
         <source src="assets/others/niger boy.GIF" type="audio/mp4" />
@@ -62,6 +73,9 @@
           app.audioElement.volume = 0;
         </script>
       </audio>
+      <video id="background" loop style="display:none;">
+        <source src="assets/others/niger boy.GIF" type="video/gif" />
+      </video>
     </div>
     <div class="top-right">
       <i><a class="skip">skip</a></i>
