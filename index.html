@@ -19,23 +19,6 @@
     <link rel="shortcut icon" href="assets/icons/crown.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="ajax/libs/animate_css/3.5.2/animate.min.css" />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background-image: url('assets/others/niger%20boy.gif');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
-        position: relative;
-      }
-      #main {
-        position: relative;
-        z-index: 1;
-      }
-    </style>
   </head>
   <body>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
@@ -76,6 +59,14 @@
           app.audioElement.volume = 0;
         </script>
       </audio>
+      <video id="background" loop="">
+        <source src="assets/others/niger boy.GIF" type="video/GIF" />
+        <script>
+          const video = document.getElementById('background');
+          app.videoElement = video;
+          app.videoElement.volume = 0;
+        </script>
+      </video>
     </div>
     <div class="top-right">
       <i><a class="skip">skip</a></i>
@@ -89,5 +80,4 @@
     <script type="text/javascript" src="assets/javascript/lib/typed.min.js"></script>
     <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
     <script type="text/javascript" src="assets/javascript/analytics.js"></script>
-  </body>
-</html>
+  </html>
