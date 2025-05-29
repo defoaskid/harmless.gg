@@ -6,21 +6,10 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 
 $(document).ready(() => {
   const links = [
+    
     {
-    name: 'discord',
-    link: 'https://discord.com/users/328191967362154496'
-  },
-    {
-	  name: 'youtube',
-	  link: 'https://www.youtube.com/channel/UCBa-pPjF5mO8hU_jTvJOHtA'
-	},
-    {
-      name: 'ogu',
-      link: 'http://ogusers.com/fkyy',
-    },
-    {
-      name: 'steam',
-      link: 'http://steamcommunity.com/id/kickturn',
+      name: 'plug jamie is a skid',
+      link: 'https://larpingcoffin.net/',
     },
   ];
 
@@ -40,7 +29,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger([' ', 'f','fl','fle','flea','fleak','fleaky', 'fleakyy', 'fleakyy#', 'fleakyy#5', 'fleakyy#57', 'fleakyy#577', 'fleakyy#5777', 'fleakyy#577', 'fleakyy#57', 'fleakyy#5', 'fleakyy#', 'fleakyy', 'fleaky', 'fleak', 'flea', 'fle', 'fl', 'f']);
+  app.titleChanger([' ', 'h','ha','har','harm','harml','harmle', 'harmles', 'harmless', 'Harmless.', 'harmless.g', 'harmless.gg' ]);
   app.iconChanger(['assets/icons/crown.png', 'assets/icons/crown.png']);
 });
 
