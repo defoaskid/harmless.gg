@@ -8,12 +8,12 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['harmless.gg ran plug jamie ', 'scarwy com kid', 'follow my only fans', 'i spend 10 mins on this website including a wank :^)', 'who.ru elijah $$$', 'goofy gooner,lk and cxd ran you', 'get extorted by cxd,goofy gooner,lk '];
+  brandDescription = ['harmless.gg has been taken over by plug ', 'plug jamie own's you', 'plug ', 'i spend 10 mins snagging this website including a wank :^)', 'elijah my boy $$$', 'plugjamie ran you', 'get losers larped ext me LMAO '];
 
   titleChanger = (text, delay) => {
     if (!text) return;
 
-    delay = delay || 500;
+    delay = delay  500;
 
     let counter = 0;
 
@@ -26,7 +26,7 @@ class _app {
   iconChanger = (urls, delay) => {
     if (!urls) return;
 
-    delay = delay || 2000;
+    delay = delay  2000;
 
     let counter = 0;
 
@@ -47,3 +47,4 @@ class _app {
 }
 
 const app = new _app();
+
