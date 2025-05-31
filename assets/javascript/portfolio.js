@@ -8,8 +8,8 @@ $(document).ready(() => {
   const links = [
     
     {
-      name: 'plug jamie is a skid',
-      link: 'https://larpingcoffin.net/',
+      name: 'LK 12 is a skid ',
+      link: 'https://skidslol.vercel.app/',
     },
   ];
 
